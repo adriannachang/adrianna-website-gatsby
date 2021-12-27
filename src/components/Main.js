@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import portrait from '../images/portrait.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -29,18 +29,49 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <div class="flex-container">
+            <div class="flex-child-left">
+              <img src={portrait} alt="Adrianna portrait"/>
+            </div>
+            <div class="flex-child-right">
+              <h3>Hi, I'm Adrianna!</h3>
+              <p>
+                I'm a senior software developer working out of Ottawa, Ontario (🇨🇦).
+                I spent four years interning at Shopify while obtaining my B.C.S. from Carleton
+                U here in the nation's capital. I'm passionate about open source
+                software, diversity and inclusion in tech, and working with Ruby on Rails.
+              </p>
+            </div>
+          </div>
+          <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Outside of work, you'll probably find me curled up with a book or on a hike with my dog, Jasper.
+            I love the outdoors, and am a big believer in spending time in nature to disconnect and recharge.
+            The background picture on my site was taken on a hike at Moraine Lake in beautiful Banff, Alberta.
           </p>
+          <h3 className="major">Experience</h3>
+          <ul>
+            <li><strong>June 2021-present:</strong> Senior Production Engineer @ Shopify, Rails Infra Team</li>
+            <li><strong>April 2020-June 2021:</strong> Software Developer @ Shopify, Rails Infra Team</li>
+          </ul>
+          <span>I spent 4 years interning at Shopify as a part of the Dev Degree program, completing 5 distinct 8-month internships:</span>
+          <ul>
+            <li><strong>Sept 2019-April 2020:</strong> Developer Intern, Code Foundations Team</li>
+            <li><strong>Jan 2019-Sept 2019:</strong> Production Engineering Intern, Production Platform Team</li>
+            <li><strong>May 2018-Dec 2018:</strong> Data Science Intern, Partnerships Data Team</li>
+            <li><strong>Sept 2017-April 2018:</strong> Developer Intern, Partnerships Team</li>
+            <li><strong>Jan 2017-Aug 2018:</strong> Developer Intern, Internal Tools Team</li>
+          </ul>
+          <h3 className="major">Education</h3>
+          <ul>
+            <li><strong>Sept 2016-April 2020:</strong> Carleton University, Bachelor of Computer Science, Honours with High Distinction</li>
+            <ul>
+              <li>11.95 / 12.0 GPA</li>
+              <li>Chancellor's Scholarship Recipient</li>
+              <li>Dean's Honour List (2016-2020)</li>
+              <li>Senate Medal Recipient</li>
+            </ul>
+          </ul>
           {close}
         </article>
 
