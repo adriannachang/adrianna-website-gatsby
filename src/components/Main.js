@@ -50,11 +50,17 @@ class Main extends React.Component {
             The background picture on my site was taken on a hike at Moraine Lake in beautiful Banff, Alberta.
           </p>
           <h3 className="major">Experience</h3>
+          <p>
+            I currently work on the Rails Infrastructure Team at Shopify. Our job is to contribute to the Rails community
+            by building and maintaining various Rails open source foundations. We work to define best practices, provide
+            expertise, and share our learnings with the community while making "Rails at scale" possible in Shopify's core Rails
+            monolith.
+          </p>
           <ul>
             <li><strong>June 2021-present:</strong> Senior Production Engineer @ Shopify, Rails Infra Team</li>
             <li><strong>April 2020-June 2021:</strong> Software Developer @ Shopify, Rails Infra Team</li>
           </ul>
-          <span>I spent 4 years interning at Shopify as a part of the Dev Degree program, completing 5 distinct 8-month internships:</span>
+          <span>I spent 4 years interning at Shopify as a part of the Dev Degree program, completing five 8-month internships:</span>
           <ul>
             <li><strong>Sept 2019-April 2020:</strong> Developer Intern, Code Foundations Team</li>
             <li><strong>Jan 2019-Sept 2019:</strong> Production Engineering Intern, Production Platform Team</li>
