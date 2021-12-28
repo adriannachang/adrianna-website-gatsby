@@ -88,24 +88,38 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Blog posts  &amp; talks</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <div class="flex-grid-thirds">
+            <div class="col box">
+              MARCH 2020
+              <br />
+              <a href="https://shopify.engineering/refactoring-legacy-code-strangler-fig-pattern" target="_blank" rel="noreferrer">
+                Refactoring Legacy Code with the Strangler Fig Pattern
+              </a>
+            </div>
+            <div class="col box">
+              APRIL 2020
+              <br />
+              <a href="https://5by5.tv/rubyonrails/313" target="_blank" rel="noreferrer">
+                5by5 Ruby on Rails Podcast: Strangler Fig Pattern &amp; God Objects
+              </a>
+            </div>
+            <div class="col box">
+              NOV 2020
+              <br />
+              <a href="https://podcasts.apple.com/us/podcast/adrianna-chang-using-the-strangler-fig-pattern-at-shopify/id1459893010?i=1000498839958" target="_blank" rel="noreferrer">
+                Robby Russell's Maintainable Podcast: Using the Strangler Fig Pattern at Shopify
+              </a>
+            </div>
+          </div>
+          <div class="flex-grid-thirds">
+            <div class="col box">
+              DEC 2020
+              <br />
+              <a href="https://www.youtube.com/watch?v=zZ95_5y_iPk" target="_blank" rel="noreferrer">
+                The Legacy of SoCraTes Conference 2020: Refactoring Large Objects with the Strangler Fig Pattern
+              </a>
+            </div>
+          </div>
           {close}
         </article>
 
