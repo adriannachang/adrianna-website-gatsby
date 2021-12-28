@@ -57,7 +57,7 @@ class Main extends React.Component {
             <li><strong>June 2021-present:</strong> Senior Production Engineer @ Shopify, Rails Infra Team</li>
             <li><strong>April 2020-June 2021:</strong> Software Developer @ Shopify, Rails Infra Team</li>
           </ul>
-          <span>I spent 4 years interning at Shopify as a part of the Dev Degree program, completing five 8-month internships:</span>
+          <span>I spent 4 years in Shopify's Dev Degree program, interning on various teams:</span>
           <ul>
             <li><strong>Sept 2019-April 2020:</strong> Developer Intern, Code Foundations Team</li>
             <li><strong>Jan 2019-Sept 2019:</strong> Production Engineering Intern, Production Platform Team</li>
