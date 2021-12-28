@@ -43,7 +43,6 @@ class Main extends React.Component {
               </p>
             </div>
           </div>
-          <br />
           <p>
             Outside of work, you'll probably find me curled up with a book or on a hike with my dog, Jasper.
             I love the outdoors, and am a big believer in spending time in nature to disconnect and recharge.

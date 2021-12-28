@@ -96,12 +96,19 @@
 
 				img {
 					width: 100%;
+					margin-bottom: 1rem;
 				}
 			}
 
 			.flex-child-right {
 				flex: 1;
 			}
+
+			@media (max-width: 600px) {
+				.flex-container {
+				  display: block;
+				}
+			  }
 		}
 
 		@include breakpoint(small) {
