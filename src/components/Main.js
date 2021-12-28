@@ -30,10 +30,10 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <div class="flex-container">
-            <div class="flex-child-left">
+            <div class="flex-child-double">
               <img src={portrait} alt="Adrianna portrait"/>
             </div>
-            <div class="flex-child-right">
+            <div class="flex-child">
               <h3>Hi, I'm Adrianna!</h3>
               <p>
                 I'm a senior software developer working out of Ottawa, Ontario (🇨🇦).
