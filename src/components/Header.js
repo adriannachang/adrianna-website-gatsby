@@ -12,7 +12,7 @@ const Header = props => (
         <p>
           Senior Software Developer @ Shopify.&nbsp;
           <br />
-          Carleton University + {' '}<a href="https://devdegree.ca/" target="_blank" rel="noreferrer">Dev Degree Alum</a>.&nbsp;
+          Carleton University + {' '}<a href="https://devdegree.ca/" target="_blank" rel="noreferrer">Dev Degree</a> Alum.&nbsp;
           <br />
           Ruby on Rails aficionado.
         </p>
