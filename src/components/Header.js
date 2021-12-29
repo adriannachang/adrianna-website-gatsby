@@ -10,9 +10,9 @@ const Header = props => (
       <div className="inner">
         <h1>Adrianna Chang</h1>
         <p>
-          Senior Software Developer @ Shopify.
+          Senior Software Developer @ Shopify.&nbsp;
           <br />
-          Carleton University + {' '}<a href="https://devdegree.ca/" target="_blank" rel="noreferrer">Dev Degree Alum</a>.
+          Carleton University + {' '}<a href="https://devdegree.ca/" target="_blank" rel="noreferrer">Dev Degree Alum</a>.&nbsp;
           <br />
           Ruby on Rails aficionado.
         </p>
